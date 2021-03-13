@@ -10,7 +10,6 @@ def addIn(index0, processed):
     if item > index0:
       processed.insert(index,index0)
       return processed
-    index += 1
   processed.append(index0)
   return processed
 
