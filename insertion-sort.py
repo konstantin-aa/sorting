@@ -6,8 +6,7 @@ print(list0)
 
 #insert selected object into the sorted list
 def addIn(index0, processed):
-  index = 0
-  for item in processed:
+  for index, item in enumerate(processed):
     if item > index0:
       processed.insert(index,index0)
       return processed
